@@ -75,7 +75,7 @@ main {
 
 .card {
 	border: 2px solid;
-	padding: 10px;
+	padding: 10px 20px;
 }
 
 .card h2 {
@@ -175,6 +175,11 @@ footer li {
 	border-right: 1px solid black;
 }
 
+td.padded-txt {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 .copyright {
 	font-weight: normal;
 	font-size: 16px;
@@ -183,7 +188,7 @@ footer li {
 }
 
 .box-container {
-	max-width: 800px;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
