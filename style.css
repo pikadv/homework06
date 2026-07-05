@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header ----------------------------- */
+header {
+	color: #fff;
+	text-align: center;
+}
+
+.logo-box {
+	background-color: #003875;
+	padding: 10px;
+}
+
+.logo-subtitle {
+	font-size: 16px;
+}
+
+.nav-box {
+	background-color: #51993c;
+	padding: 10px;
+	border-top: 2px solid #fff;
+}
+
+.nav-box li {
+	display: inline;
+	margin: 15px;
+	font-weight: bold;
+}
+
+.nav-box a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Main ------------------- */
+
+main {
+	margin: 10px 0;
+}
+
+/* Hero Section */
+.hero-section {
+	background-color: #e6f2fe;
+	border: 2px solid #3c71b4;
+	padding: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.hero-title {
+	color: #003875;
+	margin-bottom: 10px;
+}
+
+.hero-text {
+	line-height: 1.2;
+}
+
+/* Info Section */
+
+.info-section {
+	overflow: hidden;
+	margin: auto;
+}
+
+.info-section table {
+	border-spacing: 10px 0;
+	margin-left: -9.5px;
+	margin-right: -9.5px;
+}
+
+.card {
+	border: 2px solid;
+	padding: 10px;
+}
+
+.card h2 {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.card p {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.card-one {
+	background-color: #eafbeb;
+	border: 2px solid #1e8323;
+}
+
+.card-one h2 {
+	color: #1e8323;
+}
+
+.card-two {
+	background-color: #fef5e7;
+	border: #d3781a 2px solid;
+}
+
+.card-two h2 {
+	color: #d3781a;
+}
+
+.card-three {
+	background-color: #fdebea;
+	border: #a71e22 2px solid;
+}
+
+.card-three h2 {
+	color: #a71e22;
+}
+
+/* Table Section */
+
+.table-section {
+	margin: 5px;
+}
+
+.centered-txt {
+	text-align: center;
+}
+
+.table-title {
+	padding: 10px;
+	font-size: 20px;
+	color: #003875;
+	text-align: center;
+}
+
+.table-section table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-section th {
+	color: #3b166a;
+	background-color: #dfcaea;
+}
+
+.table-section th,
+.table-section td {
+	border: #5c3186 2px solid;
+	padding: 10px;
+	font-size: 14px;
+}
+
+/* Footer ------------------ */
+footer {
+	text-align: center;
+	background-color: #fff5e6;
+	border: #e77e22 2px solid;
+}
+
+footer li {
+	display: inline;
+	padding: 0 10px;
+}
+
+.contact-section {
+	padding: 10px;
+}
+
+.contact-title {
+	color: #ca5700;
+	margin-bottom: 10px;
+}
+
+.bordered-txt {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.copyright {
+	font-weight: normal;
+	font-size: 16px;
+	border-top: #e77e22 dotted 2px;
+	padding: 10px;
+}
+
+.box-container {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
